@@ -50,15 +50,15 @@
 }
 
 .btn-opacity {
-	border: 2px solid #f7b471;
+	border: 0.125rem solid #f7b471;
 	box-shadow: 0.09375rem 0.16237rem 0.625rem 0 #e65f0d, inset 0 0.125rem 1.4375rem -0.5625rem #e65f0d;
-	max-width: 220px;
+	max-width: 13.75rem;
 	width: 100%;
-	padding: 16px;
+	padding: 1rem;
 	color: #f7b471;
 	&:hover {
 		color: $accent;
-		border: 2px solid $accent;
+		border: 0.125rem solid $accent;
 		box-shadow: 0.09375rem 0.16237rem 2.5rem 0rem $accent, inset 0 0.125rem 1.4375rem -0.5625rem #e65f0d;
 	}
 }
