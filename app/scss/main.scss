@@ -1,5 +1,195 @@
 @import 'config';
 
-// CUSTOM USER STYLES & IMPORTS
+.section-one {
+    background: url('../images/section1-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
+.hands-and-sdo {
+    width: 55rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
+.triangle {
+    position: absolute;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    img {
+        width: 3rem;
+    }
+    &:nth-child(1) {
+        animation-name: triangle1;
+        animation-duration: 15s;
+        img {
+            width: 2rem;
+        }
+    }
+    &:nth-child(2) {
+        animation-name: triangle2;
+        animation-duration: 15s;
+        img {
+            width: 3.7rem;
+        }
+    }
+    &:nth-child(3) {
+        animation-name: triangle3;
+        animation-duration: 15s;
+        img {
+            width: 3.2rem;
+        }
+    }
+    &:nth-child(4) {
+        animation-name: triangle4;
+        animation-duration: 15s;
+        img {
+            width: 2.7rem;
+        }
+    }
+    &:nth-child(5) {
+        animation-name: triangle5;
+        animation-duration: 15s;
+        img {
+            width: 3.5rem;
+        }
+    }
+    &:nth-child(6) {
+        animation-name: triangle6;
+        animation-duration: 15s;
+        img {
+            width: 2.3rem;
+        }
+    }
+    &:nth-child(7) {
+        animation-name: triangle7;
+        animation-duration: 15s;
+        img {
+            width: 2.2rem;
+        }
+    }
+    &:nth-child(8) {
+        animation-name: triangle8;
+        animation-duration: 15s;
+        img {
+            width: 2.8rem;
+        }
+    }
+    &:nth-child(9) {
+        animation-name: triangle9;
+        animation-duration: 15s;
+        img {
+            width: 4rem;
+        }
+    }
+    @keyframes triangle1 {
+        0% {
+            top: 0;
+            right: 0;
+            transform: rotate(0);
+        }
+        100% {
+            right: 38.5rem;
+            top: 16.9rem;
+            transform: rotate(75deg);
+        }
+    }
+    @keyframes triangle2 {
+        0% {
+            top: 5rem;
+            right: 10rem;
+            transform: rotate(0);
+        }
+        100% {        
+            right: 38.5rem;
+            top: 25rem;
+            transform: rotate(330deg);
+        }
+    }
+    @keyframes triangle3 {
+        0% {
+            bottom: 0;
+            right: 0;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 29.15rem;
+            right: 30.8rem;
+            transform: rotate(335deg);
+        }
+    }
+    @keyframes triangle4 {
+        0% {
+            bottom: 0;
+            left: 0;
+            transform: rotate(0);
+        }
+        100% {
+            bottom: 27.8rem;
+            left: 54.2rem;
+            transform: rotate(14deg);
+        }
+    }
+    @keyframes triangle5 {
+        0% {
+            top: 0;
+            left: 30rem;
+            transform: rotate(0);
+        }
+        100% {
+            top: 25.5rem;
+            left: 52.5rem;
+            transform: rotate(33deg);
+        }
+    }
+    @keyframes triangle6 {
+        0% {
+            bottom: 0;
+            left: 35rem;
+            transform: rotate(0);
+        }
+        100% {
+            left: 63.1rem;
+            bottom: 30.2rem;
+            transform: rotate(45deg);
+        }
+    }
+    @keyframes triangle7 {
+        0% {
+            top: 0;
+            right: 20rem;
+            transform: rotate(0);
+        }
+        100% {
+            top: 17.6rem;
+            right: 39.6rem;
+            transform: rotate(68deg);
+        }
+    }
+    @keyframes triangle8 {
+        0% {
+            bottom: 0;
+            right: 30rem;
+            transform: rotate(0);
+        }
+        100% {
+            right: 39.35rem;
+            bottom: 19.6rem;
+            transform: rotate(332deg);
+        }
+    }
+    @keyframes triangle9 {
+        0% {
+            top: 38rem;
+            right: 0;
+            transform: rotate(0);
+        }
+        100% {
+            top: 14.6em;
+            right: 28.8rem;
+            transform: rotate(42deg);
+        }
+    }
+}
