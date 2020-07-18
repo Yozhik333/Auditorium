@@ -1,0 +1,64 @@
+.btn {
+	display: block;
+	position: relative;
+	font-weight: bold;
+	transition: 0.3s ease;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: 4rem;
+	line-height: 1.2;
+}
+
+.btn-big {
+	padding: 1rem 1.5rem 1rem;
+	box-shadow: 0.09375rem 0.16237rem 0.625rem 0rem $accent;
+	//box-shadow: 0.09375rem 0.16237rem 0.625rem 0rem $accent;
+	background-image: linear-gradient(90deg, rgb(251, 193, 59) 0%, rgb(230, 95, 13) 100%);
+	border: 0.0625rem solid #d89744;
+	max-width: 15.625rem;
+	width: 100%;
+	color: #000;
+	&:hover {
+		border: 0.0625rem solid #ffeed8;
+		color: #000;
+		box-shadow: 0.09375rem 0.16237rem 2.5rem 0rem $accent;
+	}
+}
+
+.btn-blue {
+	border: 0.125rem solid $blue;
+	padding: 0.625rem 1.875rem 0.625rem;
+	color: #000;
+	width: max-content;
+	&:hover {
+		border: 0.125rem solid $accent;
+		color: $blue;
+	}
+}
+
+.btn-orange {
+	border: 0.125rem solid #f7b471;
+	box-shadow: 0.09375rem 0.16237rem 0.625rem 0 #e65f0d, inset 0 0.125rem 1.4375rem -0.5625rem #e65f0d;
+	padding: 0.625rem 1.875rem 0.625rem;
+	width: max-content;
+	color: #f7b471;
+	&:hover {
+		color: #fff;
+		box-shadow: none;
+		border: 0.125rem solid $accent;
+	}
+}
+
+.btn-opacity {
+	border: 2px solid #f7b471;
+	box-shadow: 0.09375rem 0.16237rem 0.625rem 0 #e65f0d, inset 0 0.125rem 1.4375rem -0.5625rem #e65f0d;
+	max-width: 220px;
+	width: 100%;
+	padding: 16px;
+	color: #f7b471;
+	&:hover {
+		color: $accent;
+		border: 2px solid $accent;
+		box-shadow: 0.09375rem 0.16237rem 2.5rem 0rem $accent, inset 0 0.125rem 1.4375rem -0.5625rem #e65f0d;
+	}
+}

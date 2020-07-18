@@ -1,8 +1,9 @@
-// USER VARIABLES SECTION
-
-$accent: orange; // Accent Color
+$accent: #e65f0d; // Accent Color
+$yellow: #ffc116;
+$blue: #524394;
+$violet: #6d13e2;
 $fontsize: 1vw; // Body Font Size
-$textcolor: #333; // Text Color
+$textcolor: #fff; // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
 $roboto: ProximaNova, sans-serif; // Roboto Font Family
 
@@ -37,14 +38,14 @@ $gutter: $grid-gutter-width;
 
 // GENERAL DOCUMENT STYLES
 
-::placeholder {
-	color: #666;
-}
+//::placeholder {
+//	color: #666;
+//}
 
-::selection {
-	background-color: $accent;
-	color: #fff;
-}
+//::selection {
+//	background-color: $accent;
+//	color: #fff;
+//}
 
 input,
 textarea {
@@ -68,4 +69,54 @@ body {
 	line-height: 1.65;
 	overflow-x: hidden;
 	color: $textcolor;
+}
+
+.wrapper {
+	height: 100%;
+}
+.wrapper-in {
+	position: relative;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.content {
+	overflow: hidden;
+	flex: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+a {
+	transition: 0.3s ease;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+ul {
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+input,
+textarea {
+	outline: none;
+	&:focus:required:invalid {
+		border-color: red;
+	}
+	&:required:valid {
+		border-color: green;
+	}
 }
