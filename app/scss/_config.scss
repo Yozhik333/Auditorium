@@ -34,6 +34,7 @@ $gutter: $grid-gutter-width;
 @include font("ProximaNova", normal, 400, "../fonts/ProximaNova-Regular.ttf");
 @include font("ProximaNova", bold, 700, "../fonts/ProximaNova-Bold.ttf");
 @include font("ProximaNovaExCn", normal, 600, "../fonts/ProximaNovaExCn-Semibold.ttf");
+@include font("ProximaNovaExCn", normal, bold, "../fonts/ProximaNovaExCn-Bold.ttf");
 // Converter recommended: https://www.fontsquirrel.com/tools/webfont-generator
 // Здесь если что переведешь в woff2
 
@@ -99,6 +100,11 @@ h1 {
 	font-weight: 600;
 	font-size: 3.75rem;
 	font-family: "ProximaNovaExCn", sans-serif;
+}
+h2 {
+	font-weight: bold;
+	font-family: "ProximaNovaExCn", sans-serif;
+	font-size: 2.25rem;
 }
 
 p {
