@@ -1,0 +1,44 @@
+.section-two {
+	background-color: #000;
+	background-image: url("../images/dest/section2-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100%;
+	&-wrap {
+		height: 100%;
+		padding-top: 7.5rem;
+		padding-left: 1.875rem;
+		padding-right: 1.875rem;
+	}
+	&__headline {
+		h1 {
+			font-weight: bold;
+		}
+	}
+	&__footer {
+		display: flex;
+		align-itrems: center;
+		&-title {
+			h2 {
+				margin-bottom: 0.4rem;
+			}
+		}
+		&-btn {
+			margin-left: 1rem;
+			.btn-big {
+				padding: 1rem 3.5rem 1rem;
+			}
+		}
+	}
+	&__items {
+		&-wrap {
+			display: flex;
+		}
+	}
+}
+
+.video-card {
+	&-wrap {
+		display: flex;
+	}
+}

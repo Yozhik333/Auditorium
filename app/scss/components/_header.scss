@@ -1,0 +1,23 @@
+.main-header {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	.header-container {
+		padding: 1rem 1.25rem;
+		margin: 0 auto;
+		width: 100%;
+	}
+	&-wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__right {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.link-tel {
+			margin: 0 2rem 0 3.125rem;
+		}
+	}
+}
