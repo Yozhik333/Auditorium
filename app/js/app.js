@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		slidesNavPosition: 'bottom',
 	})
 
-	for (let i = 0; i < 4; i++) {
+	for (let i = 0; i < 7; i++) {
 		$('.triangle').clone().appendTo('.triangle-wrapper')
 	}
 
