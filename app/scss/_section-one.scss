@@ -8,13 +8,25 @@
 .triangle-wrapper {
 	max-width: 55rem;
 	height: 34.1rem;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
 
+.hands-and-sdo,
+.hands-and-sdo-active {
+	width: 48rem;
+}
 .hands-and-sdo {
-	width: 55rem;
+	position: absolute;
+	transform: translate(-0.3rem, -0.5rem);
+	opacity: 0.5;
+}
+.hands-and-sdo-active {
+	z-index: 1;
+	position: relative;
+	opacity: 0.5;
 }
 
 .triangle {
@@ -319,7 +331,7 @@
 		img {
 			width: 2rem;
 		}
-	}	
+	}
 	&:nth-child(51) {
 		animation-name: triangle50;
 		img {
@@ -1238,7 +1250,7 @@
 			transform: rotate(180deg);
 		}
 	}
-	@keyframes triangle38{
+	@keyframes triangle38 {
 		0% {
 			bottom: 0;
 			right: 0;
@@ -1250,7 +1262,7 @@
 			transform: rotate(10deg);
 		}
 	}
-	@keyframes triangle39{
+	@keyframes triangle39 {
 		0% {
 			bottom: 0;
 			right: 0;
@@ -1262,7 +1274,7 @@
 			transform: rotate(53deg);
 		}
 	}
-	@keyframes triangle40{
+	@keyframes triangle40 {
 		0% {
 			bottom: 14rem;
 			right: 0;
@@ -1274,7 +1286,7 @@
 			transform: rotate(153deg);
 		}
 	}
-	@keyframes triangle41{
+	@keyframes triangle41 {
 		0% {
 			bottom: 0;
 			right: 14rem;
@@ -1286,7 +1298,7 @@
 			transform: rotate(15deg);
 		}
 	}
-	@keyframes triangle42{
+	@keyframes triangle42 {
 		0% {
 			bottom: 0;
 			right: 14rem;
@@ -1298,7 +1310,7 @@
 			transform: rotate(65deg);
 		}
 	}
-	@keyframes triangle43{
+	@keyframes triangle43 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1310,7 +1322,7 @@
 			transform: rotate(100deg);
 		}
 	}
-	@keyframes triangle44{
+	@keyframes triangle44 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1322,7 +1334,7 @@
 			transform: rotate(40deg);
 		}
 	}
-	@keyframes triangle45{
+	@keyframes triangle45 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1334,7 +1346,7 @@
 			transform: rotate(80deg);
 		}
 	}
-	@keyframes triangle46{
+	@keyframes triangle46 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1346,7 +1358,7 @@
 			transform: rotate(20deg);
 		}
 	}
-	@keyframes triangle47{
+	@keyframes triangle47 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1358,7 +1370,7 @@
 			transform: rotate(40deg);
 		}
 	}
-	@keyframes triangle48{
+	@keyframes triangle48 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1370,7 +1382,7 @@
 			transform: rotate(80deg);
 		}
 	}
-	@keyframes triangle49{
+	@keyframes triangle49 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1382,7 +1394,7 @@
 			transform: rotate(140deg);
 		}
 	}
-	@keyframes triangle50{
+	@keyframes triangle50 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1394,7 +1406,7 @@
 			transform: rotate(140deg);
 		}
 	}
-	@keyframes triangle51{
+	@keyframes triangle51 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1406,7 +1418,7 @@
 			transform: rotate(100deg);
 		}
 	}
-	@keyframes triangle52{
+	@keyframes triangle52 {
 		0% {
 			bottom: 0;
 			right: 24rem;
@@ -1418,7 +1430,7 @@
 			transform: rotate(140deg);
 		}
 	}
-	@keyframes triangle53{
+	@keyframes triangle53 {
 		0% {
 			bottom: 0;
 			right: 0;
@@ -1430,7 +1442,7 @@
 			transform: rotate(60deg);
 		}
 	}
-	@keyframes triangle54{
+	@keyframes triangle54 {
 		0% {
 			bottom: 0;
 			right: 20rem;
@@ -1442,7 +1454,7 @@
 			transform: rotate(130deg);
 		}
 	}
-	@keyframes triangle55{
+	@keyframes triangle55 {
 		0% {
 			bottom: 14rem;
 			right: 0;
@@ -1454,7 +1466,7 @@
 			transform: rotate(70deg);
 		}
 	}
-	@keyframes triangle56{
+	@keyframes triangle56 {
 		0% {
 			bottom: 20rem;
 			right: 0;
@@ -1466,7 +1478,7 @@
 			transform: rotate(70deg);
 		}
 	}
-	@keyframes triangle57{
+	@keyframes triangle57 {
 		0% {
 			bottom: 0;
 			right: 2rem;
@@ -1478,7 +1490,7 @@
 			transform: rotate(30deg);
 		}
 	}
-	@keyframes triangle58{
+	@keyframes triangle58 {
 		0% {
 			bottom: 4rem;
 			right: 0;
@@ -1490,7 +1502,7 @@
 			transform: rotate(70deg);
 		}
 	}
-	@keyframes triangle59{
+	@keyframes triangle59 {
 		0% {
 			bottom: 14rem;
 			right: 0;
@@ -1502,7 +1514,7 @@
 			transform: rotate(140deg);
 		}
 	}
-	@keyframes triangle60{
+	@keyframes triangle60 {
 		0% {
 			bottom: 0;
 			right: 0;
@@ -1514,7 +1526,7 @@
 			transform: rotate(80deg);
 		}
 	}
-	@keyframes triangle61{
+	@keyframes triangle61 {
 		0% {
 			bottom: 0;
 			right: 30rem;
@@ -1526,7 +1538,7 @@
 			transform: rotate(40deg);
 		}
 	}
-	@keyframes triangle62{
+	@keyframes triangle62 {
 		0% {
 			bottom: 30rem;
 			right: 0;
@@ -1538,7 +1550,7 @@
 			transform: rotate(80deg);
 		}
 	}
-	@keyframes triangle63{
+	@keyframes triangle63 {
 		0% {
 			bottom: 0;
 			right: 0;
@@ -1550,7 +1562,7 @@
 			transform: rotate(120deg);
 		}
 	}
-	@keyframes triangle64{
+	@keyframes triangle64 {
 		0% {
 			bottom: 0;
 			right: 0;
