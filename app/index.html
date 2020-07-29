@@ -38,7 +38,7 @@
 						<!-- /.maint-logo -->
 
 						<div class="main-header__right">
-							<a href="#" class="btn btn-orange">
+							<a href="#popup" class="btn btn-orange popup-link">
 								Заказать звонок
 							</a>
 							<div class="link-tel target">
@@ -94,7 +94,34 @@
 										<p>Составляйте отдельные расписания для разных учебных групп. </p>
 									</div>
 									<div class="video-card__right">
-										<img src="images/dest/gradient-card.png" alt="Градиент">
+										<img class="video-card__gradient" src="images/dest/gradient-card.png" alt="Градиент">
+										<img class="video-card__girl1" src="images/dest/girl-1.png" alt="Девушка">
+										<div class="video-card__right-youtube">
+											<div class="page">
+												<p><a href="#media-popup" data-media="//www.youtube.com/embed/nx1_yzq9cX4">click me</a></p>
+
+												<div class="popup-youtube" id="media-popup">
+													<iframe width="560" height="315" src="" frameborder="0"
+														allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+														allowfullscreen></iframe>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="video-card">
+								<div class="video-card-wrap">
+									<div class="video-card__left">
+										<h4>Быстрое формирование и удобное управление группами обучающихся. </h4>
+										<p>Объединяйте пользователей в группы и управляйте ими, добавляя описание или классных
+											руководителей. </p>
+										<h4>Создание расписаний предметов, курсов и дисциплин.</h4>
+										<p>Составляйте отдельные расписания для разных учебных групп. </p>
+									</div>
+									<div class="video-card__right">
+										<img class="video-card__gradient" src="images/dest/gradient-card.png" alt="Градиент">
+										<img class="video-card__girl2" src="images/dest/girl-2.png" alt="Девушка">
 										<div class="video-card__right-youtube">
 											<div class="page">
 												<p><a href="#media-popup" data-media="//www.youtube.com/embed/nx1_yzq9cX4">click me</a></p>
@@ -129,6 +156,56 @@
 				<!-- /.section-two-wrap -->
 			</div>
 			<!-- /.slide section-two -->
+		</div>
+
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close close-popup close-visual">
+						Закрыть
+					</a>
+					<div class="popup__title">
+						<h4>Пожалуйста, оставьте свои данные и ожидайте звонка менеджера</h4>
+					</div>
+					<div class="popup__text">
+						<form>
+							<div class="popup__text-input">
+								<input type="text" placeholder="Имя" required>
+							</div>
+							<div class="popup__text-input">
+								<input type="text" placeholder="Телефон" required>
+							</div>
+						</form>
+						<div class="popup__text-police">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+					</div>
+					<div class="popup__btn">
+						<a href="#popup_2" class="popup-link btn btn-opacity">
+							Отправить
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup_2" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<div class="popup__title">
+						<h3>СПАСИБО!</h3>
+					</div>
+					<div class="popup__text">
+						<p>Данные успешно приняты менеджером компании, в 10 минут Вам поступит звонок для назначения встречи и
+							детального изучения потребности
+						</p>
+					</div>
+					<div class="popup__btn">
+						<a href="#header" class="close-popup btn btn-opacity">
+							Ок
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<script src="js/app.min.js"></script>
