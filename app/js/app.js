@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
 		$('.triangle').clone().appendTo('.triangle-wrapper')
 	}
 
+	$('.btn-on-off').click(function() {
+		$(this).toggleClass('on')
+		$('.section-one').toggleClass('off')
+		$('.btn-on-off__text').html() == 'вкл' ? $('.btn-on-off__text').html('выкл') : $('.btn-on-off__text').html('вкл')
+	})
+
 	$("[data-media]").on("click", function (e) {
 		e.preventDefault();
 		var $this = $(this);

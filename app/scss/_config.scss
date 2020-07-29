@@ -5,7 +5,7 @@ $violet: #6d13e2;
 $fontsize: 0.85vw; // Body Font Size
 $textcolor: #fff; // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
-$roboto: ProximaNova, sans-serif; // Roboto Font Family
+$proxima: ProximaNova, sans-serif; // Roboto Font Family
 
 // Bootstrap compatible gutter variable => $gutter
 $grid-gutter-width: 20px;
@@ -65,7 +65,7 @@ html {
 }
 
 body {
-	font-family: $roboto;
+	font-family: $proxima;
 	min-width: 320px;
 	position: relative;
 	line-height: 1.2;
@@ -99,6 +99,7 @@ h6 {
 h1 {
 	font-weight: 600;
 	font-size: 3.75rem;
+	line-height: 3.75rem;
 	font-family: "ProximaNovaExCn", sans-serif;
 }
 h2 {
