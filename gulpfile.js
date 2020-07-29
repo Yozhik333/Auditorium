@@ -13,6 +13,7 @@ let paths = {
 			'node_modules/jquery/dist/jquery.min.js', // npm vendor example (npm i --save-dev jquery)
 			baseDir + '/js/background-check.min.js',
 			baseDir + '/js/fullpage.min.js',
+			baseDir + '/js/popup.js',
 			baseDir + '/js/app.js' // app.js. Always at the end
 		],
 		dest: baseDir + '/js',
