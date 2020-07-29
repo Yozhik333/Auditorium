@@ -3,6 +3,39 @@ body {
   cursor: url('../images/dest/default-cursor.png') 5 5, auto;
   margin: 0;
 }
+  #custom-cursor {
+    transform-origin: center;
+    pointer-events: none;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    transform: translate(-5px, -5px);
+    border-radius: 50%;
+    background-color: #7b7b7b;
+    border: 2px solid #7b7b7b;
+    z-index: 999;
+    mix-blend-mode: difference;
+    transition: width 400ms ease, height 400ms ease, transform 400ms ease;
+    &.big-cursor {
+	  border-color: #fff;
+	  background-color: #fff;
+      width: 2rem;
+      height: 2rem;
+	}
+	&.big-cursor2 {
+		border-color: #d89744;
+		background-color: #d89744;
+		width: 2rem;
+		height: 2rem;
+	}
+  }
 
 .section-one {
 	background-image: url("../images/dest/section1-bg.jpg");
